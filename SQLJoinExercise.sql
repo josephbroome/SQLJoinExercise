@@ -11,7 +11,7 @@ SELECT p.Name, p.Price, r.Rating
 FROM products as p
 INNER JOIN reviews as r
 ON r.ProductID = p.ProductID
-WHERE r.ReviewID=5;
+WHERE r.Rating=5;
 
  
 /* joins: find the employee with the most total quantity sold.  use the sum() function and group by */
